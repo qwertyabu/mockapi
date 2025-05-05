@@ -1,0 +1,62 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+.container{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+input{ 
+    margin:5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #0056b3;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #423cf2;
+
+}
+ul{
+    list-style: none;
+    padding: 0;
+
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-sizing: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.edit-btn, .delete-btn{
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 18px;
+
+}
+.delete-btn{
+    color: red;
+}
+.zaeb{
+    color: coral;
+}
